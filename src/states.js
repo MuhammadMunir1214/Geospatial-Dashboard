@@ -1,4 +1,4 @@
-let states = [
+export const states = [
   {
     id: "0400000US04",
     name: "Arizona",
@@ -1754,4 +1754,4 @@ let states = [
   },
 ];
 
-export { states };
+// export { states };

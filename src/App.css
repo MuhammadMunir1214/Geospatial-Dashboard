@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .map-container {
   position: absolute;
   top: 0;
@@ -9,7 +5,7 @@
   width: 100%;
 }
 
-.sidebar {
+.info-sidebar {
   position: absolute;
   z-index: 1;
   top: 0;
@@ -20,6 +16,37 @@
   border-radius: 4px;
 }
 
-.custom-popup {
-  z-index: 999;
+.controls {
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  margin: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6px;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.horizontal-slider {
+  width: 100%;
+  height: 25px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.example-thumb {
+  height: 25px;
+  line-height: 25px;
+  width: 25px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  cursor: grab;
+}
+
+.example-track {
+  background: none;
+  border: none;
 }
